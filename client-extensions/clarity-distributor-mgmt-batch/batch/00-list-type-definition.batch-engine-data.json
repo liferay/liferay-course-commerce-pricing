@@ -1,0 +1,20 @@
+{
+	"configuration": {
+		"className": "com.liferay.headless.admin.user.dto.v1_0.UserAccount",
+		"taskItemDelegateName": "DEFAULT",
+		"parameters": {
+			"createStrategy": "INSERT",
+			"updateStrategy": "UPDATE",
+			"onErrorFail": "false"
+		}
+	},
+	"items": [
+		{
+			"emailAddress": "jeff.handa@liferay.com",
+			"familyName": "Handa",
+			"givenName": "Jeff",
+			"alternateName": "jeffhanda",
+			"password": "password"
+		}
+	]
+}

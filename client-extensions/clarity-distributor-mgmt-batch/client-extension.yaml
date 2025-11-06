@@ -1,0 +1,15 @@
+assemble:
+    - from: batch
+      into: batch
+liferay-clarity-batch:
+    name: Users Import Batch
+    oAuthApplicationHeadlessServer: users-import-batch-oauth-application-headless-server
+    type: batch
+users-import-batch-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: User Import Batch OAuth
+    scopes:
+        - Liferay.Headless.Admin.User.everything
+        - Liferay.Headless.Batch.Engine.everything
+    type: oAuthApplicationHeadlessServer
