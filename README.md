@@ -1,6 +1,5 @@
 # Mastering Pricing and Discounting with Liferay
 
-
 Please review the course prerequisites [here](https://www.liferay.com/classroom-training/classroom-prerequisites).
 
 ## Setting up environments
